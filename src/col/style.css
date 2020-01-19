@@ -1,0 +1,20 @@
+.galaxy-col {
+    float: left;
+    display: block;
+    box-sizing: border-box;
+}
+.galaxy-col-24 {
+    width: 100%;
+}
+.galaxy-col-18 {
+    width: 66.66%;
+}
+.galaxy-col-12 {
+    width: 50%;
+}
+.galaxy-col-8 {
+    width: 33.33%;
+}
+.galaxy-col-6 {
+    width: 25%;
+}

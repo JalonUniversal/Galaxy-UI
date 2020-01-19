@@ -1,0 +1,60 @@
+@import (reference) "../public/style.less";
+
+.calc-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.calc-container input[disabled] {
+  background-color: transparent;
+  color: #fff;
+  user-select: none;
+}
+.calc-button-diabled {
+  cursor: not-allowed;
+}
+
+.calc-input-center {
+  min-width: 20px;
+  border: 0;
+  padding: 2px 4px;
+  box-sizing: border-box;
+  flex: 1;
+  outline: 0 none;
+  text-align: center;
+}
+.calc-button {
+  color: @white;
+  font-size: 22px;
+  transition: .2s;
+  z-index: 88;
+  cursor: pointer;
+}
+.calc-button:hover {
+  opacity: 0.5;
+}
+
+.calc-radius {
+  border-radius: 3px;
+}
+.calc-container-primary {
+  background: @primary;
+}
+.calc-container-info {
+  background: @info;
+}
+.calc-container-danger {
+  background: @danger;
+}
+.calc-container-warning {
+  background: @warning;
+}
+.calc-container-mystery { 
+  background: @mystery;
+}
+.calc-container-disabled {
+  background: @disabled;
+}
+

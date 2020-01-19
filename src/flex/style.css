@@ -1,0 +1,63 @@
+.galaxy-flex {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* flex-direction properties */
+.galaxy-flex-row {
+    flex-direction: row;
+}
+.galaxy-flex-column {
+    flex-direction: column;
+}
+/* flex-direction properties */
+
+/* justify-content properties */
+.galaxy-flex-justify-between {
+    justify-content: space-between;
+}	
+.galaxy-flex-justify-around {
+    justify-content: space-around;
+}
+.galaxy-flex-justify-evenly {
+    justify-content: space-evenly;
+}	
+
+.galaxy-flex-justify-start {
+    justify-content: flex-start;
+}	
+.galaxy-flex-justify-center {
+    justify-content: center;
+}
+.galaxy-flex-justify-end {
+    justify-content: flex-end;
+}
+/* justify-content properties */
+
+/* align-items properties */
+.galaxy-flex-align-baseline {
+    align-items: baseline;
+}
+.galaxy-flex-align-strech {
+    align-items: strech;
+}
+.galaxy-flex-align-start {
+    align-items: flex-start;
+}	
+.galaxy-flex-align-center {
+    align-items: center;
+}	
+.galaxy-flex-align-end {
+    align-items: flex-end;
+}	
+.galaxy-flex-align-around {
+    align-items: space-around;
+}
+.galaxy-flex-align-evenly {
+    align-items: space-evenly;
+}
+/* align-items properties */

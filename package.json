@@ -1,0 +1,51 @@
+{
+  "name": "galaxy-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --config ./webpack.config.js",
+    "build": "rm -rf dist && webpack --config ./webpack.prod.js",
+    "clear": "rm -rf dist",
+    "test": "node test.js",
+    "doc": "docz dev"
+  },
+  "author": "Jalon",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@babel/runtime": "^7.6.3",
+    "autoprefixer": "^9.6.5",
+    "babel-loader": "^8.0.6",
+    "classnames": "^2.2.6",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "docz": "^1.3.2",
+    "docz-theme-default": "^1.2.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss": "^7.0.18",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-icons": "^3.8.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "dependencies": {
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2"
+  }
+}

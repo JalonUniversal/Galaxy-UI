@@ -1,0 +1,60 @@
+@import (reference) "../public/style.less";
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.slider-line {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: @silver;
+  transition: background-color 0.4s;
+}
+.slider-line:hover {
+  background-color: @silver-deep;
+}
+.slider-line-value {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  height: 3px;
+  opacity: 0.8;
+  z-index: 66;
+}
+.slider-ball {
+  position: absolute;
+  top: -8px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 168;
+}
+
+.slider-ball-primary, .slider-line-primary {
+  background-color: @primary;
+}
+.slider-ball-info, .slider-line-info {
+  background-color: @info;
+}
+.slider-ball-danger, .slider-line-danger {
+  background-color: @danger;
+}
+.slider-ball-warning, .slider-line-warning {
+  background-color: @warning;
+}
+.slider-ball-disabled, .slider-line-disabled {
+  background-color: @disabled;
+  cursor: not-allowed;
+}
+
+.slider-ball:hover {
+  opacity: 0.85;
+  transform: scale(1.1);
+}

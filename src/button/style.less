@@ -1,0 +1,89 @@
+@import (reference) "../public/style.less";
+
+.glaxy-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color: @white;
+    border: none;
+    text-align: center;
+    transition: all 0.4s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .35);
+    cursor: pointer;
+    user-select: none; 
+}
+.glaxy-button:hover {
+    opacity: 0.7;
+}
+.glaxy-button:active {
+    opacity: 0.4;
+}
+
+/* galaxy ui style */
+.galaxy-ui-plain {
+    background-color: @lightGrey;
+}
+.galaxy-ui-primary {
+    background-color: @primary;
+}
+.galaxy-ui-info {
+    background-color: @info;
+}
+.galaxy-ui-danger {
+    background-color: @danger;
+}
+.galaxy-ui-warning {
+    background-color: @warning;
+}
+/* galaxy ui style */
+
+.galaxy-behavior-ban {
+    background-color: #7f8c8d;
+    cursor: not-allowed;
+}
+
+.galaxy-behavior-ban:hover {
+    opacity: 1;
+}
+
+.galaxy-radius {
+    border-radius: 4px;
+}
+.galaxy-round {
+    border-radius: 50%;
+}
+.galaxy-round-small {
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 50%;
+}
+.galaxy-round-middle {
+    width: 28px !important;
+    height: 28px !important;
+    border-radius: 50%;
+}
+.galaxy-round-large {
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 50%;
+}
+
+.galaxy-button-small {
+    width: 60px;
+    height: 25px;
+    font-size: 12px;
+}
+
+.galaxy-button-middle {
+    width: 75px;
+    height: 28px;
+    font-size: 13px;
+}
+
+.galaxy-button-large {
+    width: 90px;
+    height: 32px;
+    font-size: 15px;
+}

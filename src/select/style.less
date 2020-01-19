@@ -1,0 +1,73 @@
+@import (reference) "../public/style.less";
+
+.galaxy-select-wrapper {
+  position: relative;
+  width: 90px;
+  height: 30px;
+  border: 1px solid @primary;
+  background-color: @white;
+  box-shadow: 0 0 6px rgba(0,0,0,.15);
+  transition: box-shadow .4s;
+  cursor: pointer;
+}
+.galaxy-select-wrapper:hover {
+  background-color: @primary;
+  box-shadow: 0 0 12px rgba(0,0,0,.25);
+}
+.galaxy-select-box {
+  position: absolute;
+  top: 33px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  box-shadow: 0 0 6px rgba(0,0,0,.4);
+}
+.galaxy-select-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  background-color: @white;
+  color: @lightBlack;
+  user-select: none;
+}
+.galaxy-select-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  background-color: @white;
+  color: @lightBlack;
+  cursor: pointer;
+  user-select: none;
+  transition: all .2s;
+  overflow: hidden;
+}
+.galaxy-select-content {
+  height: 30px;
+  line-height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+.galaxy-select-item {
+  color: @lightBlack;
+}
+.galaxy-select-primary:hover {
+  background-color: @primary;
+  color: @white;
+}
+.galaxy-select-info:hover {
+  background-color: @info;
+  color: @white;
+}
+.galaxy-select-box-hide {
+  left: -9999px;
+}

@@ -1,0 +1,10 @@
+{
+  "window.zoomLevel": 1,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveTimeout": 400,
+  "editor.detectIndentation": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.preferences.quoteStyle": "single",
+}
